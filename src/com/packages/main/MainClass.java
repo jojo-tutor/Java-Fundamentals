@@ -35,7 +35,13 @@ public class MainClass {
         jd.sayHello();
         jd.saySomething("Are you available?");
         System.out.println(jd.getReply());*/
-        new YourGrade();
+        //new YourGrade();
+        //new TheMonth();
+        //Direction de = Direction.West;
+        //System.out.printf("%s is %d degrees.\n",de,de.getDegrees());
+        //new NumberCount();
+        //new MultiplicationTable();
+        new GuessNumber();
                 
     }
 }
