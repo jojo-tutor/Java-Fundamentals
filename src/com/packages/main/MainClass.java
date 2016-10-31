@@ -30,7 +30,7 @@ public class MainClass {
         c.setTopSpeed(200);
         c.run();
         c.toString();*/
-        /*JavaDoc jd = new JavaDoc();
+ /*JavaDoc jd = new JavaDoc();
         jd.sayHi();
         jd.sayHello();
         jd.saySomething("Are you available?");
@@ -41,7 +41,24 @@ public class MainClass {
         //System.out.printf("%s is %d degrees.\n",de,de.getDegrees());
         //new NumberCount();
         //new MultiplicationTable();
-        new GuessNumber();
-                
+        //new GuessNumber();
+        //new SimpleArray();
+        Student[] students = new Student()[]
+        {
+            new Student("John", 76);
+            new Student("Peter", 83);
+            new Student("Micheal", 99);
+            new Student("Gabriel", 87);
+        }
+
+        float sum = 0f;
+        float average = 0f;
+        for (int i = 0; i < students.length; i++) {
+            System.out.printf("%d\t%s\t\t  %d\n", i + 1, students[i].getName(), students[i].getGrade());
+            sum = sum + students[i].getGrade();
+        }
+        average = sum / students.length;
+        System.out.printf("\n***Class Average: %1.2f\n\n", average);
+
     }
 }
