@@ -64,7 +64,7 @@ public class MainClass {
         System.out.printf("\n***Class Average: %1.2f\n\n", average);*/
         //new ArrayListBasic();
         
-        ArrayList<Employee> employees = new ArrayList<>();
+        /*ArrayList<Employee> employees = new ArrayList<>();
         employees.add(new Employee("Paul",8500));
         employees.add(new Employee("Marry",10050));
         employees.add(new Employee("Cedric",12100));
@@ -75,6 +75,17 @@ public class MainClass {
         for(int i=0;i<employees.size();i++){
             System.out.printf("%d\t%s\t\t%1.2f\n",i+1,employees.get(i).getName(),employees.get(i).getSalary());
         }
+        System.out.println("");*/
+        /*FindAndSort f1 = new FindAndSort();
+        f1.find();
         System.out.println("");
+        System.out.print("Ascending Order ==> \t");
+        f1.sortAscending();
+        f1.displayNumbers();
+        System.out.print("\nDescending Order ==> \t");
+        f1.sortDescending();
+        f1.displayNumbers();
+        System.out.println("");*/
+        new ExceptionHandling();
     }
 }
