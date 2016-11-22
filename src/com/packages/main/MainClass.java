@@ -17,6 +17,7 @@ public class MainClass {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        new HelloWorld();
         /*new HelloWorld();
         new DataTypes();
         new TypeCasting();
@@ -86,6 +87,6 @@ public class MainClass {
         f1.sortDescending();
         f1.displayNumbers();
         System.out.println("");*/
-        new ExceptionHandling();
+        //new ExceptionHandling();
     }
 }
