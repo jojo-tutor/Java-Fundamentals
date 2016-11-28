@@ -24,8 +24,8 @@ public class TypeCasting {
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);
-        System.out.println(a + b);
-        System.out.println(a_plus_b);
+        System.out.println("'a'+'b' = " + a + b);
+        System.out.println("a+b = " + a_plus_b);
         System.out.println("");
         System.out.println("x = " + x);
         System.out.println("y = " + y);

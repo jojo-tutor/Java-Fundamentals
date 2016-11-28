@@ -17,13 +17,13 @@ public class MainClass {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new HelloWorld();
-        /*new HelloWorld();
-        new DataTypes();
-        new TypeCasting();
+        //new HelloWorld();
+        //new HelloWorld();
+        //new DataTypes();
+        //new TypeCasting();
         new PredefinedObjects().randomMethod();
         new PredefinedObjects().stringBuilderMethod();
-        new PredefinedObjects().mathMethod();*/
+        new PredefinedObjects().mathMethod();
         //new MethodBasics();
         /*Car c = new Car();
         c.setName("GTR 101");

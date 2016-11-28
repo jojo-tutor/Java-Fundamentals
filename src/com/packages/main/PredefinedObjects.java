@@ -21,7 +21,7 @@ public class PredefinedObjects {
 
     public void randomMethod() {
         //gets 3 random numbers
-        System.out.print("Enter bound number: ");
+        System.out.print("Enter max number: ");
         int boundNumber = input.nextInt();
         Random generator = new Random();
         int i = generator.nextInt(boundNumber);
