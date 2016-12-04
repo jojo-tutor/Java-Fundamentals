@@ -5,7 +5,7 @@
  */
 package com.packages.main;
 
-import java.util.ArrayList;
+import java.io.IOException;
 
 /**
  *
@@ -16,15 +16,17 @@ public class MainClass {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        //new HelloWorld();
-        //new HelloWorld();
+    public static void main(String[] args) throws IOException{
+        //Just uncomment the statements for the implementation of other classes.
+        new HelloWorld();
         //new DataTypes();
         //new TypeCasting();
-        new PredefinedObjects().randomMethod();
-        new PredefinedObjects().stringBuilderMethod();
-        new PredefinedObjects().mathMethod();
+        //new PredefinedObjects().mathMethod();
+        
+        //new PredefinedObjects().stringBuilderMethod();
+        //new PredefinedObjects().mathMethod();
         //new MethodBasics();
+        
         /*Car c = new Car();
         c.setName("GTR 101");
         c.setBrand("Mazda");
@@ -33,7 +35,7 @@ public class MainClass {
         c.setTopSpeed(200);
         c.run();
         c.toString();*/
- /*JavaDoc jd = new JavaDoc();
+        /*JavaDoc jd = new JavaDoc();
         jd.sayHi();
         jd.sayHello();
         jd.saySomething("Are you available?");
